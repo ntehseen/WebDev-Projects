@@ -1,0 +1,124 @@
+/* Global Styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Logo */
+  #logo {
+    width: 150px;
+    margin: 20px;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar li {
+    margin: 0 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .navbar li a:hover {
+    color: orange;
+  }
+  
+  /* Hero Banner */
+  #hero-banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #444;
+    padding: 50px;
+    text-align: center;
+    background-image: url(./assets/banner.png);
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+  }
+  
+  #hero-banner h1 {
+    margin-bottom: 20px;
+  }
+
+  #hero-banner p {
+
+    text-align: justify;
+    
+  }
+  
+  /* Small Sections */
+  .small-sections {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    flex-wrap: wrap;
+    border: aliceblue;
+    border-spacing: inherit;
+  }
+  
+  .small-sections article {
+    width: 30%;
+    text-align: center;
+    text-decoration: ivory;
+    text-overflow: ellipsis;
+
+  }
+  
+  .small-sections h2 {
+    margin-bottom: 20px;
+    margin-top: auto;
+  }
+  
+  .small-sections img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: #444;
+  }
+
+  .small-sections article ul li {
+    color: dodgerblue;
+  }
+
+  .small-sections article a:hover {
+
+    color: orange;
+
+  }
+  
+  /* Footer */
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  .footer .logo img {
+    width: 150px;
+  }
+  
+  .footer .copyright {
+    color: white;
+  }
+  

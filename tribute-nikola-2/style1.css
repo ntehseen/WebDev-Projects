@@ -1,0 +1,93 @@
+/* ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+   ┃             Beautiful CSS Code            ┃
+   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛ */
+
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'Poppins', sans-serif; /* Change 'cursive-font' to your desired cursive font */
+    color: darkgray;
+    background-color: black;
+    background-image: url('./bg1.svg');
+}
+
+.container {
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.header {
+    padding: 2rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.header > .title {
+    margin-bottom: 1rem;
+}
+
+.tribute {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0 auto;
+    background: transparent;
+    color: black;
+    align-items: center;
+    padding: 0 0 0 1rem;
+}
+
+.tribute .content-container {
+    border: 3px solid darkgray; /* Add border */
+    padding: 1rem; /* Add padding inside the border */
+    box-shadow: 5px 5px 10px darkgray; /* Add box shadow */
+    margin: auto;
+}
+
+.tribute blockquote {
+    text-align: center;
+    font-size: 3rem;
+    color: antiquewhite;
+    /* background-color: darkgrey; */
+}
+
+.tribute img {
+    max-width: 80%;
+}
+
+.bio {
+    margin: 2rem;
+    padding: 0 0.5rem;
+    max-width: 40rem;
+    display: block;
+    position: justify;
+    }
+
+.bio > h2 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.bio > p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.bio > hr {
+    margin-top: 2rem;
+}
+
+.article1 {
+    justify-content: left;
+}
+
+.article2 {
+    justify-content: right;
+}

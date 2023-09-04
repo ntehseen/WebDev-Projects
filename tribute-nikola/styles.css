@@ -1,0 +1,130 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+    background-color: black;
+    color: gainsboro;
+    font: url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;600&family=Kosugi+Maru&family=Poppins:wght@300;400;500;600&display=swap');
+}
+
+/* Style the main container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the header with the title and subtitle */
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title h1 {
+    font-size: 36px;
+}
+
+.title h4 {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Style the hero section with the quote and image */
+.hero-box {
+    text-align: center;
+    margin-bottom: 40px;
+    border: 2px solid gray;
+
+    display: flex;
+    flex-direction: row; /* Arrange items horizontally */
+    justify-content: space-between; /* Spread items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+
+.image_t {
+    flex: 1; /* Take up available space on the right */
+    padding: 10px; /* Add some padding for spacing */
+    text-align: right; /* Align the image to the right */
+    border: solid 2px gray;
+
+}
+
+
+
+.quote {
+    font-style: italic;
+    flex: 1; /* Take up available space on the left */
+    padding: 20px; /* Add some padding for spacing */
+    background-color: #000; /* Black background for the quote */
+    color: #fff; /* White text color for the quote */
+    
+}
+
+.quote blockquote {
+    
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.image_t img {
+    max-width: 100%;
+    height: auto;
+    float: right;
+}
+
+/* Style the biography section */
+
+.bio h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.bio h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #666;
+}
+
+/* Style the timeline elements */
+dl {
+    margin-left: 20px;
+    border-radius: 2%
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-bottom: 20px;
+}
+
+/* Style the horizontal rule */
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* Add some spacing between elements */
+br {
+    margin-bottom: 10px;
+}
