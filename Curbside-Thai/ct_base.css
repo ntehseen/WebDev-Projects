@@ -138,12 +138,58 @@ ul, ol {
 dd {
 	margin: 0 0 0 40px;
 }
-nav ul, nav ol {
-	list-style: none;
-	list-style-image: none;
-	margin: 0;
-	padding: 0;
+/* Reset default list styles */
+nav ul,
+nav ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
+
+/* Style for the navbar */
+nav {
+  background: #f1eeee; /* Background color for the navbar */
+  display: flex;
+  justify-content: space-between; /* Align items horizontally */
+  align-items: center; /* Align items vertically */
+  padding: 10px 20px; /* Add some padding for spacing */
+  align-content: center;
+  text-align: center;
+}
+
+/* Style for the navigation links */
+nav ul {
+  display: flex; /* Display the list items horizontally */
+  text-align: center;
+}
+
+nav ul li {
+  margin-right: 20px; /* Add some spacing between list items */
+  align-items: center;
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove margin from the last item to avoid extra spacing */
+}
+
+nav a {
+  text-decoration: none; /* Remove underlines from links */
+  color: #fff; /* Text color for links */
+  font-weight: bold; /* Make the text bold */
+  align-items: center;
+  text-align: center;
+}
+
+/* Hover effect for the navigation links */
+nav a:hover {
+  color: #ff5733; /* Change text color on hover */
+}
+
+/* Style for the ordered list (if needed) */
+nav ol {
+  /* Add your specific styles for ordered lists here */
+}
+
 
 
 /* =============================================
